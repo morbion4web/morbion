@@ -1,0 +1,21 @@
+body{
+ vertical-align: middle;
+ background: #000;
+ color: #fff;
+}
+#box{
+ margin-top: 10%;
+}
+#item{
+ text-align: center;
+ font-size: 5em;
+ font-family: 'Courier New', Courier, monospace;
+ transition: 0.3s;
+ text-shadow: 5px 3px 3px rgba(150, 150, 150, 1);
+}
+#item:hover{
+ color: rgb(27, 190, 190);
+ font-weight: 900;
+ text-shadow: none;
+ cursor: pointer;
+}
